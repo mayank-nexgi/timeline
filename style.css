@@ -1,8 +1,8 @@
 :root {
   --bg-purple: #3d276b;
   --line-color: #cbbaf1;
-  --text-main: #ede8f7;
-  --text-muted: #ae9ed9;
+  --text-main: #f7f6fb;
+  --text-muted: #c8bfe0;
   --stroke: 10px;
   --track-w: 480px;
 }
@@ -55,7 +55,7 @@ body {
   color: var(--bg-purple);
   font-family: "Oswald", sans-serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 50px;
   letter-spacing: 5px;
   padding: 2px 16px;
   line-height: 1.15;
@@ -65,7 +65,7 @@ body {
 .hero-title {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
-  font-size: 112px;
+  font-size: 134px;
   line-height: 0.9;
   letter-spacing: 3px;
   color: var(--line-color);

@@ -6,7 +6,7 @@ const hint = document.getElementById("scrollIndicator");
 const clamp01 = (n) => Math.min(Math.max(n, 0), 1);
 function update() {
   const scrollY = window.innerHeight * 0.62 - timeline.getBoundingClientRect().top;
-  if (hint) hint.style.opacity = window.scrollY > 30 ? "0" : "1";
+  if (hint) hint.style.opacity = window.scrollY > 30 ? "0" : "1";   
   // Lines draw karo
   for (const line of lines) {
     const top = parseFloat(line.style.top) || 0;
